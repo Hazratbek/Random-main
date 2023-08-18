@@ -1,0 +1,50 @@
+@media screen and (min-width: 1200px) {
+    .input input {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header{
+        font-size: 50px;
+    }
+    .input input {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        font-size: 40px;
+    }
+    .input input {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header{
+        font-size: 40px;
+    }
+    .input {
+        flex-direction: column;
+        align-items: center;
+    }
+    .input input {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .btn {
+        width: 80%;
+        margin-bottom: 30px;
+
+    }
+    .limit{
+        margin-bottom: 5px;
+        
+    }
+}
